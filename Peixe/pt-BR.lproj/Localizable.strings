@@ -1,0 +1,14 @@
+/* 
+  Localized.strings
+  Peixe
+
+  Created by Gabriel vieira on 2/10/19.
+  Copyright © 2019 Gabriel vieira. All rights reserved.
+*/
+
+"price_from" = "A partir de";
+"on_city" = "Na cidade";
+"travel" = "Viagens";
+"product" = "Produtos";
+"error_fetch_data" = "Erro ao tentar buscar os dados";
+"alert" = "Alerta";

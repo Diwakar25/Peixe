@@ -76,8 +76,9 @@ class DealTableViewCell: UITableViewCell {
         
         let gradientLayer = CAGradientLayer()
         self.gradientView.alpha = 0.3
-        gradientLayer.frame.size =
-            self.gradientView.frame.size
+        let screenRect = UIScreen.main.bounds
+        let screenWidth = screenRect.size.width
+        gradientLayer.frame.size = CGSize(width: screenWidth, height: self.gradientView.frame.height)
         gradientLayer.colors = [UIColor.clear.cgColor , ColorConstants.gray, UIColor.black.cgColor]
         self.gradientView.layer.addSublayer(gradientLayer)
     }

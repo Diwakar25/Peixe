@@ -26,20 +26,16 @@ class LoaderView: UIView {
     }
     
     public func startLoader(view: UIView) {
-    
-        DispatchQueue.main.async {
-            self.frame = view.frame
-            self.activityIndicator.center = CGPoint(x: self.center.x, y: self.center.y - 50)
-            view.addSubview(self)
-            self.activityIndicator.startAnimating()
-        }
+
+        self.frame = view.frame
+        view.addSubview(self)
+        self.activityIndicator.center = CGPoint(x: self.center.x, y: self.center.y - 50)
+        self.activityIndicator.startAnimating()
     }
     
     public func stopLoader() {
         
-        DispatchQueue.main.async {
-            self.activityIndicator.stopAnimating()
-            self.removeFromSuperview()
-        }
+        self.activityIndicator.stopAnimating()
+        self.removeFromSuperview()
     }
 }

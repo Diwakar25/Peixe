@@ -48,5 +48,5 @@ O aruivo DealModels.swift contém os models de retorno e a viewModel comum para 
 
 As Scenes Product, Travel e City so implementam Interactor(regra de negocio) e seu arquivo de Models especifico, contendo a Model para o request para o API service
 
-
-
+##### Print
+<img width="400" src="https://raw.githubusercontent.com/gabrielvieira/Peixe/master/Print/print.png">

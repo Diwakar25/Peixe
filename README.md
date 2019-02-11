@@ -44,8 +44,7 @@ Contém as classes de uso comum e abstrações, como Font, Formatter, LoaderView
 Contém as Scenes do aplicativo, Deal, Product, Travel e City.
 
 Deal é uma Scene generica, comum a Product, Travel e City, nela esta implementado, a controller, o presenter e o arquivo de models.
-O aruivo DealModels.swift contém os models de retorno e a viewModel comum para as 3 Scenes
-A reutilização é feita atraves de protocolos criados em DealSceneProtocol
+O aruivo DealModels.swift contém os models de retorno e a viewModel comum para as 3 Scenes, a reutilização é feita atraves de protocolos criados em DealSceneProtocol
 
 As Scenes Product, Travel e City so implementam Interactor(regra de negocio) e seu arquivo de Models especifico, contendo a Model para o request para o API service
 
